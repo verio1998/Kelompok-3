@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="180dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="179dp"
+            android:background="?android:attr/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_boss"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="\nPROFIL ANDA"
+            android:textColor="#e8e9e9" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="179dp"
+            android:layout_Gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="?android:attr/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_bayar"
+            android:elevation="0dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="\nBAYAR TAGIHAN"
+            android:textColor="#e8e9e9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="180dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_cs"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="\nPENGADUAN LAYANAN"
+            android:textColor="#e8e9e9" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="?android:attr/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_wall_calendar"
+            android:layoutGravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="\nRIWAYAT PEMBAYARAN"
+            android:textColor="#e8e9e9" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="#b2b419"
+        android:drawableRight="@drawable/ic_buildings"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nINFO PERUSAHAAN"
+        android:textColor="#e8e9e9" />
+
+
+</LinearLayout>
