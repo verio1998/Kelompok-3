@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asuspc.kabel.MainActivity">
+
+
+    <EditText
+        android:id="@+id/eTLemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="Masukkan email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eTLpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eTLemail"
+        android:layout_alignRight="@+id/eTLemail"
+        android:layout_below="@+id/eTLemail"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Masukkan katasandi"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btLlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTLpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Masuk" />
+
+    <Button
+        android:id="@+id/btLRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btLlogin"
+        android:layout_alignRight="@+id/btLlogin"
+        android:layout_below="@+id/btLlogin"
+        android:layout_marginTop="37dp"
+        android:text="Daftar" />
+
+</RelativeLayout>

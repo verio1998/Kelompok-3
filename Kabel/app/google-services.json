@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "837944484939",
+    "firebase_url": "https://application-demo-4030e.firebaseio.com",
+    "project_id": "application-demo-4030e",
+    "storage_bucket": "application-demo-4030e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837944484939:android:55d666fb2ccfd85b",
+        "android_client_info": {
+          "package_name": "com.example.asuspc.kabel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837944484939-kv5l7ijokvsa8lo1he4d4o089a521hkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asuspc.kabel",
+            "certificate_hash": "5bfd16cfa15fb645989c31ce16704454b7841747"
+          }
+        },
+        {
+          "client_id": "837944484939-m7q07u3svs7irh64jo5gr4ll1040re42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPVbH3a1QPZC2MOavtqeeenahg6t40_L8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837944484939-m7q07u3svs7irh64jo5gr4ll1040re42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
