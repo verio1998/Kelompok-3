@@ -1,9 +1,21 @@
 <resources>
-    <string name="app_name">Kabel</string>
+    <string name="app_name"></string>
     <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_riwayat">Riwayat</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih Tarif</item>
+        <item>Rp. 25.000,-/per bulan</item>
+        <item>Rp. 70.000,-/per 3 bulan</item>
+        <item>Rp. 25.000,-/per 6 bulan</item>
+        <item>Rp. 25.000,-/per tahun</item>
+    </string-array>
+
 </resources>

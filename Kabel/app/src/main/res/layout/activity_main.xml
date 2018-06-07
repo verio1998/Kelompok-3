@@ -6,47 +6,99 @@
     android:layout_height="match_parent"
     tools:context="com.example.asuspc.kabel.MainActivity">
 
-
-    <EditText
-        android:id="@+id/eTLemail"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_profile_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txt_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/orang"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/ireng" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="@drawable/gembok"
+                    android:ems="10"
+                    android:hint="Katasandi"
+                    android:inputType="textPassword"
+                    android:textColor="@color/ireng" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingTop="5dp"
+                android:text="Belum punya akun ? Daftar"
+                android:textColor="@color/ireng" />
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#d67601"
+                android:text="Sign in"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/putih"
+        android:elevation="4dp"
+        android:src="@drawable/tev" />
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center_horizontal"
+        android:text="KABEL.TV"
+        android:textColor="@color/ireng"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp"
-        android:ems="10"
-        android:hint="Masukkan email"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/eTLpass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/eTLemail"
-        android:layout_alignRight="@+id/eTLemail"
-        android:layout_below="@+id/eTLemail"
-        android:layout_marginTop="51dp"
-        android:ems="10"
-        android:hint="Masukkan katasandi"
-        android:inputType="textPassword" />
-
-    <Button
-        android:id="@+id/btLlogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/eTLpass"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="Masuk" />
-
-    <Button
-        android:id="@+id/btLRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btLlogin"
-        android:layout_alignRight="@+id/btLlogin"
-        android:layout_below="@+id/btLlogin"
-        android:layout_marginTop="37dp"
-        android:text="Daftar" />
-
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
 </RelativeLayout>
