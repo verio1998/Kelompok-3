@@ -118,12 +118,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btn_register.setOnClickListener(new View.OnClickListener() {
-
             @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                intent = new Intent(MainActivity.this, Register.class);
-                finish();
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Verifikasi.class);
                 startActivity(intent);
             }
         });

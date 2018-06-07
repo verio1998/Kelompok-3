@@ -13,13 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".Register" />
         <activity
             android:name=".Home"
@@ -41,7 +42,8 @@
         <activity android:name=".Tab2Fragment" />
         <activity android:name=".Tab" />
         <activity android:name=".Profil" />
-        <activity android:name=".tampil"></activity>
+        <activity android:name=".tampil" />
+        <activity android:name=".Verifikasi"></activity>
     </application>
 
 </manifest>
